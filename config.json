@@ -1,0 +1,16 @@
+{
+    "almacenes": [
+        {"id": 1, "nombre": "ALMACEN 1", "ref_banco": "ALM1", "ref_contabilidad": ["REF001", "A1"]},
+        {"id": 2, "nombre": "ALMACEN 2", "ref_banco": "ALM2", "ref_contabilidad": ["REF002", "A2"]},
+        {"id": 3, "nombre": "ALMACEN 3", "ref_banco": "ALM3", "ref_contabilidad": ["REF003", "A3"]},
+        {"id": 4, "nombre": "ALMACEN 4", "ref_banco": "ALM4", "ref_contabilidad": ["REF004", "A4"]},
+        {"id": 5, "nombre": "ALMACEN 5", "ref_banco": "ALM5", "ref_contabilidad": ["REF005", "A5"]},
+        {"id": 6, "nombre": "ALMACEN 6", "ref_banco": "ALM6", "ref_contabilidad": ["REF006", "A6"]},
+        {"id": 7, "nombre": "ALMACEN 7", "ref_banco": "ALM7", "ref_contabilidad": ["REF007", "A7"]}
+    ],
+    "almacen_8_ingresos": {
+        "nombre": "POLIZAS INGRESOS (1-1100)",
+        "rango_folios": [1, 1100],
+        "ref_banco": "INGRESOS"
+    }
+}
