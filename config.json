@@ -1,16 +1,70 @@
 {
     "almacenes": [
-        {"id": 1, "nombre": "ALMACEN 1", "ref_banco": "ALM1", "ref_contabilidad": ["REF001", "A1"]},
-        {"id": 2, "nombre": "ALMACEN 2", "ref_banco": "ALM2", "ref_contabilidad": ["REF002", "A2"]},
-        {"id": 3, "nombre": "ALMACEN 3", "ref_banco": "ALM3", "ref_contabilidad": ["REF003", "A3"]},
-        {"id": 4, "nombre": "ALMACEN 4", "ref_banco": "ALM4", "ref_contabilidad": ["REF004", "A4"]},
-        {"id": 5, "nombre": "ALMACEN 5", "ref_banco": "ALM5", "ref_contabilidad": ["REF005", "A5"]},
-        {"id": 6, "nombre": "ALMACEN 6", "ref_banco": "ALM6", "ref_contabilidad": ["REF006", "A6"]},
-        {"id": 7, "nombre": "ALMACEN 7", "ref_banco": "ALM7", "ref_contabilidad": ["REF007", "A7"]}
-    ],
-    "almacen_8_ingresos": {
-        "nombre": "POLIZAS INGRESOS (1-1100)",
-        "rango_folios": [1, 1100],
-        "ref_banco": "INGRESOS"
-    }
+        {
+            "id": 1,
+            "nombre": "CORRALEJO",
+            "ref_banco": [
+                "CI00000000111099630085019",
+                "CE00000000111099630085"
+            ],
+            "rango_folios": [100000, 109999]
+        },
+        {
+            "id": 2,
+            "nombre": "LUISIADA",
+            "ref_banco": [
+                "CI00000000111107820071019",
+                "CE00000000111107820071"
+            ],
+            "rango_folios": [110000, 119999]
+        },
+        {
+            "id": 3,
+            "nombre": "GAVIA",
+            "ref_banco": [
+                "CE00000000111245750017"
+            ],
+            "rango_folios": [120000, 129999]
+        },
+        {
+            "id": 4,
+            "nombre": "SAN FELIPE",
+            "ref_banco": [
+                "CE00000000111346420042"
+            ],
+            "rango_folios": [130000, 139999]
+        },
+        {
+            "id": 5,
+            "nombre": "JARIPEO",
+            "ref_banco": [
+                "CE00000000111453900058"
+            ],
+            "rango_folios": [140000, 149999]
+        },
+        {
+            "id": 6,
+            "nombre": "SAN LUIS",
+            "ref_banco": [
+                "CE00000000111598010076"
+            ],
+            "rango_folios": [150000, 159999]
+        },
+        {
+            "id": 7,
+            "nombre": "SAN SEBASTIAN",
+            "ref_banco": [
+                "CE00000000111748630001"
+            ],
+            "rango_folios": [170000, 179999]
+        },
+        {
+            "id": 8,
+            "nombre": "INGRESOS Y DIARIO",
+            "ref_banco": [
+                "INGRESOS"
+            ],
+            "rango_folios": [1, 1100]
+        }
+    ]
 }
